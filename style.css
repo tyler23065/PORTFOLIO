@@ -1,0 +1,398 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+    
+    }
+    html {
+        scroll-behavior: smooth;
+      }
+    header {
+        background: #080808;
+        color: #ffffff;
+        padding: 30px 0;
+        text-align: center;
+        margin: 0;
+    }
+    
+    ul{
+        text-align: center;
+        margin-right: 0px;
+    }
+    ul li{
+        text-decoration: none;
+        display: inline;
+        word-spacing: 50px;
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        text-shadow: 1px 1px 20px rgba(223, 223, 223, 0.6);
+    }
+    ul li :hover{
+        background: white;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 20px;
+        color: black;
+        transition: 0.5s;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+        
+    }
+    
+    .con1{
+        background-color: #080808;
+        width: 100%;
+        height: 680px;
+        z-index: -2;
+    }
+
+    .con2{
+        background-color: #232323;
+        width: 100%;
+        height: 810px;
+       
+    }
+    .t1 {
+        margin: 0;
+        text-align: center;
+        font-size: 100px;
+        font-weight: 400;
+        color: white;
+        line-height: 5.2;
+        text-shadow: 1px 1px 20px rgba(129, 125, 125, 0.6);
+        font-family: "Dela Gothic One";
+        z-index: 2;
+        
+        }
+
+    .t2{
+        margin: 0;
+        text-align: left;
+        margin-left: 130px;
+        font-size: 60px;
+        font-weight: 400;
+        color: white;
+        text-shadow: 1px 1px 20px rgba(129, 125, 125, 0.6);
+        font-family: "Dela Gothic One";
+        line-height: 5;
+        z-index: 2;
+        position: absolute;
+        margin-top: 20px;
+    }
+    .p{
+        margin: 0;
+        text-align: left;
+        margin-left: 130px;
+        font-size: 20px;
+        font-family: "Dela Gothic One";
+        color: white;
+        margin-top: 245px;
+        position: absolute;
+        text-shadow: 1px 1px 20px rgba(129, 125, 125, 0.6);
+    }
+
+    .p1{
+        margin: 0;
+        text-align: left;
+        margin-left: 130px;
+        font-size: 20px;
+        font-family: "Dela Gothic One";
+        color: white;
+        margin-top: 305px;
+        position: absolute;
+        max-width: 500px;
+        text-shadow: 1px 1px 20px rgba(129, 125, 125, 0.6);
+
+    }
+
+    .t3{
+        margin: 0;
+        text-align: left;
+        margin-left: 130px;
+        font-size: 20px;
+        font-family: "Dela Gothic One";
+        color: white;
+        margin-top: 575px;
+        position: absolute;
+        max-width: 500px;
+        text-shadow: 1px 1px 20px rgba(129, 125, 125, 0.6);
+
+    }
+    .t4{
+        margin: 0;
+        margin-left: 300px;
+        font-size: 70px;
+        font-family: "Dela Gothic One";
+        color: white;
+        position: absolute;
+        text-shadow: 1px 1px 20px rgba(129, 125, 125, 0.6);
+        z-index: 3;
+    }
+    main {
+        background-color: white;
+        height: 1000px;
+        }
+    .projects {
+        margin-bottom: 20px;
+        margin-top: 100px ;
+        }
+    .project {
+        background: #ffffff;
+        border: 1px solid #dddddd;
+        border-radius: 5px;
+        padding: 10px;
+        margin: 10px 0;
+        }
+
+    .pogi{
+        width: 350px;
+        height: 500px;
+        margin-left: 900px;
+        box-shadow: 16px 18px 33px 4px rgba(0,0,0,0.75);
+        z-index: 1;
+        position: absolute;
+        margin-top: 130px;
+    }
+
+    .line{
+        border-top: #ffffff;
+        width: 550px;
+        margin-left: 130px;
+        position: absolute;
+        margin-top: 560px;
+    }
+
+    .im1{
+        width: 30px;
+        height: 30px;
+        margin-top: 575px;
+        position: absolute;
+        margin-left: 650px;
+    }
+
+    .im2{
+        width: 50px;
+        height: 50px;
+        margin-top: 565px;
+        position: absolute;
+        margin-left: 600px;
+    }
+    
+    .con3{
+        width: 100%;
+        height: 800px;
+        background-color: #080808;
+       
+    }
+
+    .p4{
+        margin: 0;
+        margin-left: 370px;
+        font-size: 70px;
+        font-family: "Dela Gothic One";
+        color: white;
+        margin-top: 100px;
+        position: absolute;
+        text-shadow: 1px 1px 20px rgba(129, 125, 125, 0.6);
+    }
+
+    .container {
+        display: grid;
+        place-items: center;
+        background-color: #080808;
+        height: 500px;
+      }
+      
+      .card__container {
+        display: grid;
+        row-gap: 3.5rem;
+        
+      }
+      
+      .card__article {
+        position: relative;
+        overflow: hidden;
+      }
+      
+      .card__img1 {
+        width: 400px;
+        height: 240px;
+        border-radius: 1.5rem;
+        margin-top: 100px;
+      }
+      .card__img2 {
+        width: 400px;
+        height: 240px;
+        border-radius: 1.5rem;
+        margin-top: 100px;
+      }
+      
+      .card__img3 {
+        width: 400px;
+        height: 240px;
+        border-radius: 1.5rem;
+        margin-top: 100px;
+      }
+      
+      .card__data {
+        width: 280px;
+        background-color: white;
+        padding: 1.5rem 2rem;
+        box-shadow: 0 8px 24px hsla(0, 0%, 100%, 0.15);
+        border-radius: 1rem;
+        position: absolute;
+        bottom: -9rem;
+        left: 0;
+        right: 0;
+        margin-inline: auto;
+        opacity: 0;
+        transition: opacity 1s 1s;
+      }
+      
+      .card__description {
+        display: block;
+        font-size: var(--small-font-size);
+        margin-bottom: .25rem;
+      }
+      
+      .card__title {
+        font-size: var(--h2-font-size);
+        font-weight: 500;
+        color: var(--title-color);
+        margin-bottom: .75rem;
+      }
+      
+      .card__button {
+        text-decoration: none;
+        font-size: var(--small-font-size);
+        font-weight: 500;
+        color: var(--first-color);
+      }
+      
+      .card__button:hover {
+        text-decoration: underline;
+      }
+      
+      
+      .card__article:hover .card__data {
+        animation: show-data 1s forwards;
+        opacity: 1;
+        transition: opacity .3s;
+      }
+      
+      .card__article:hover {
+        animation: remove-overflow 2s forwards;
+      }
+      
+      .card__article:not(:hover) {
+        animation: show-overflow 2s forwards;
+      }
+      
+      .card__article:not(:hover) .card__data {
+        animation: remove-data 1s forwards;
+      }
+      
+      .to-top {
+        background: white;
+        position: fixed;
+        bottom: 16px;
+        right: 32px;
+        height: 50px;
+        width: 50px;  
+        border-radius: 50%;  
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 32px;
+        color: black;
+        z-index: 10000;
+        opacity: 1;
+        
+    }
+    
+    .to-top.active {
+        bottom: 32px; 
+        pointer-events: auto; 
+        opacity: 1; 
+    }
+     
+      @keyframes show-data {
+        50% {
+          transform: translateY(-10rem);
+        }
+        100% {
+          transform: translateY(-7rem);
+        }
+      }
+      
+      @keyframes remove-overflow {
+        to {
+          overflow: initial;
+        }
+      }
+      
+      @keyframes remove-data {
+        0% {
+          transform: translateY(-7rem);
+        }
+        50% {
+          transform: translateY(-10rem);
+        }
+        100% {
+          transform: translateY(.5rem);
+        }
+      }
+      
+      @keyframes show-overflow {
+        0% {
+          overflow: initial;
+          pointer-events: none;
+        }
+        50% {
+          overflow: hidden;
+        }
+      }
+      
+     
+      @media screen and (max-width: 340px) {
+        .container {
+          margin-inline: 1rem;
+        }
+      
+        .card__data {
+          width: 250px;
+          padding: 1rem;
+        }
+      }
+      
+      /* For medium devices */
+      @media screen and (min-width: 768px) {
+        .card__container {
+          grid-template-columns: repeat(2, 1fr);
+          column-gap: 1.5rem;
+        }
+      }
+      
+      /* For large devices */
+      @media screen and (min-width: 1120px) {
+        .container {
+          height: 100vh;
+        }
+      
+        .card__container {
+          grid-template-columns: repeat(3, 1fr);
+        }
+        .card__img {
+          width: 348px;
+        }
+        .card__data {
+          width: 316px;
+          padding-inline: 2.5rem;
+        }
+      }
